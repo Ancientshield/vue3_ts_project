@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>我是App</h1>
+    <el-button type="primary" size="default">主要按鈕</el-button>
   </div>
 </template>
 
