@@ -1,5 +1,5 @@
 /* eslint-env node */
-require('@rushstack/eslint-patch/modern-module-resolution')
+require('@rushstack/eslint-patch/modern-module-resolution');
 
 module.exports = {
   root: true,
@@ -35,9 +35,9 @@ module.exports = {
     '@typescript-eslint/semi': 'off',
 
     // eslint-plugin-vue (https://eslint.vuejs.org/rules/)
-    'vue/multi-word-component-names': 'off', // 要求元件名稱永遠為 “-” 連結的單字
+    'vue/multi-word-component-names': 'off', // 要求元件名稱永遠為 "-" 連結的單字
     'vue/script-setup-uses-vars': 'error', // 防止<script setup>使用的變數<template>被標記為未使用
     'vue/no-mutating-props': 'off', // 不允許元件 prop的改變
     'vue/attribute-hyphenation': 'off' // 對模板中的自訂元件強制執行屬性命名樣式
   }
-}
+};
