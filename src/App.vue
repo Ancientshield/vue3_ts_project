@@ -8,6 +8,10 @@
     <el-pagination background layout="prev, pager, next" :total="1000" />
   </div>
   <Test></Test>
+  <!-- svg 的用法  -->
+  <svg style="width: 30px; height: 30px; color: aqua">
+    <use xlink:href="#icon-arrow"></use>
+  </svg>
 </template>
 
 <script setup lang="ts">
