@@ -4,13 +4,11 @@
     <el-button type="success" size="small" :icon="Edit">編輯按鈕</el-button>
     <el-button type="danger" size="default" :icon="Delete">刪除按鈕</el-button>
   </div>
-  <div>
-    <el-pagination background layout="prev, pager, next" :total="1000" />
-  </div>
   <Test></Test>
   <!-- svg 的用法  -->
   <h3>svg測試</h3>
   <svg-icon name="home" color="red" width="100px" height="100px"></svg-icon>
+  <Pagination></Pagination>
 </template>
 
 <script setup lang="ts">

@@ -9,11 +9,16 @@ import 'element-plus/dist/index.css';
 import 'virtual:svg-icons-register';
 
 // 將 SvgIcon 元件全局引用
-import SvgIcon from '@/components/SvgIcon/Index.vue';
+// import SvgIcon from '@/components/SvgIcon/Index.vue';
+
+// 進階：將所有自定義元件都全局引用
+import GlobalComponent from '@/components';
 
 const app = createApp(App);
 
 // 註冊 SvgIcon 為全域元件
-app.component('SvgIcon', SvgIcon);
+// app.component('SvgIcon', SvgIcon);
+
+app.use(GlobalComponent);
 
 app.use(ElementPlus).mount('#app');
