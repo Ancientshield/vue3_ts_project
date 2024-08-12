@@ -9,9 +9,8 @@
   </div>
   <Test></Test>
   <!-- svg 的用法  -->
-  <svg style="width: 30px; height: 30px; color: aqua">
-    <use xlink:href="#icon-arrow"></use>
-  </svg>
+  <h3>svg測試</h3>
+  <svg-icon name="home" color="red" width="100px" height="100px"></svg-icon>
 </template>
 
 <script setup lang="ts">
@@ -20,4 +19,6 @@ import { Plus, Edit, Delete } from '@element-plus/icons-vue';
 import Test from '@/components/Test.vue';
 </script>
 
-<style scoped></style>
+<style scoped lang="scss">
+$primary: #2050ec;
+</style>
